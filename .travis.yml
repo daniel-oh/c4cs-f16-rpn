@@ -1,4 +1,5 @@
 language: python
 python:
-- 3.5
-script: rpn.py test_rpn.py
+- "3.5"
+#runs test
+script:make rpn.py test_rpn.py
